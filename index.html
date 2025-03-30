@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>My First Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="My First Web Page">
+    <meta name="keywords" content="lists,links, images,forms">
+    <meta name="author" content="Janet Were">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>  
+
+  <body>
+
+   <h4>WADA ENTERPRISES LTD</h4>
+   <p>WADA ENTERPRISES is a business that deals widely with distribution of household items all over the country.</p>
+   <p>Our main aim is to ensure that our customers are satisfied with our products and services.</p>
+   <p>Our products are of high quality and are affordable to all our customers.</p>
+   <p>Our products include:</p>
+   <ol type="I">
+        <li>Utensils</li>
+        <li>Electronics</li>
+        <li>Food stuffs</li>
+        <li>Stationery</li>
+        <li>Home appliances</li>
+   </ol>
+
+   <img src="pexels-level23media-3016430.jpg" alt="kitchen with home appliances" width="600" height="400">
+   
+   <p>To start ordering from us please fill in the form below.</p>
+   <p>Fields with asterisks * are mandatory.</p>
+
+   <form>
+    <label for="fname">First name*:</label>
+    <input type="text" id="fname" name="fname" placeholder="John" required>
+
+    <br><br>
+
+    <label for="lname">Last name*:</label>
+    <input type="text" id="lname" name="lname" placeholder="Doe" required>
+    
+    <br><br>
+
+    <label for="email">Email*:</label>
+    <input type="email" id="email" name="email" placeholder="abdd@gmail.com">
+
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" minlength="8" maxlength="16">
+       
+    <br><br>
+
+    <label for="telephone">Telephone:</label>
+    <input type="tel" id="tel" name="phone">
+        
+    <br><br>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" placeholder="1234-00100 Nairobi">
+        
+    <br><br>
+
+    <label for="date">Date:</label>
+    <input type="date" name="date" id="date">
+       
+    <br><br>
+
+            <label for="gender">Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male"name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other">
+           
+    <br><br>
+
+            <label for="country">County:</label>
+            <select name="country">
+            <option value="">please select one...</option>
+            <option value="Nairobi">Nairobi</option>
+            <option value="Kisumu">Kisumu</option>
+            <option value="Mombasa">Mombasa</option>
+            <option value="Narok">Narok</option>
+            </select>
+
+    <br><br>
+
+           <p>Is it your first time shopping with us?</p>
+           <input type="radio" id="Yes" name="first_time" value="Yes">
+           <label for="Yes">Yes</label>
+           <input type="radio" id="No" name="first_time" value="No">
+           <label for="No">No</label>
+
+    <br><br>
+
+              <p>Which items would you love to order fro us?</p>
+    <label>
+        <input type="checkbox" name="Furniture" value="Furniture"> Furniture
+    </label>
+    <label>
+        <input type="checkbox" name="Utensils" value="Utensils"> Utensils
+    </label>
+    <label>
+        <input type="checkbox" name="Electronics" value="Electronics"> Electronics
+    </label>
+    <label>
+        <input type="checkbox" name="Foodstuffs" value="Foodstuffs"> Foodstuffs
+    </label>
+    <label>
+        <input type="checkbox" name="Home appliances" value="Home appliances"> Home appliances
+    </label>
+
+    <br><br>
+
+
+           <input type="submit" name="submit" id="submit" value="Submit">
+    </form>
+
+   <p>For more information contact us through the following:</p>
+    <table border="1" cellpadding="10" cellspacing="0">
+    <caption>Contact information</caption>
+    <tr>
+        <th>Name</th>
+        <th>Mobile</th>
+        <th>Email</th>
+        <th>Address</th>
+    </tr>
+    <tr>
+        <td>Janet Were</td>
+        <td>+254712345671</td>
+        <td>Jany28@gmail.com</td>
+        <td>1234-00100 Nairobi</td>
+    </tr>
+    <tr>
+        <td>Hannah Ndlovu</td>
+        <td>+254712653372</td>
+        <td>Hanlovu@gmail.com</td>
+        <td>5563-00100 Mombasa</td>
+    </tr>
+    <tr>
+        <td>Mokgoko Fortune</td>
+        <td>+254712345473</td>
+        <td>Mokgoko@gmail.com</td>
+        <td>7890-00100 Nairobi</td>
+    </tr>
+    <tr>
+        <td>Mariah Carey</td>
+        <td>+254744445674</td>
+        <td>Macarey@gmail.com</td>
+        <td>2245-01111 Kisumu</td>
+    </tr>
+    <tr>
+        <td>Moses Ochola</td>
+        <td>+254712343455</td>
+        <td>Mochol33@gmail.com</td>
+        <td>4567-00100 Narok</td>
+    </tr>
+    </table>
+    
+  </body>
+    <footer>
+        <p>Copyright &copy; 2025 WADA ENTERPRISES LTD</p>
+        <p>All rights reserved.</p>
+    </footer>
+</html>
